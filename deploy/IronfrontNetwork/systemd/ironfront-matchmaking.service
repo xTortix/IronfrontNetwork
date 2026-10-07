@@ -1,0 +1,18 @@
+[Unit]
+Description=Ironfront MatchmakingService
+After=network-online.target postgresql.service
+Wants=network-online.target
+
+[Service]
+WorkingDirectory=/opt/warlabs/ironfront/matchmaking
+ExecStart=/usr/bin/dotnet /opt/warlabs/ironfront/matchmaking/Ironfront.MatchmakingService.dll
+EnvironmentFile=/etc/warlabs/ironfront/ironfront.env
+User=ironfront
+Group=ironfront
+Restart=always
+RestartSec=5
+SyslogIdentifier=ironfront-matchmaking
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target

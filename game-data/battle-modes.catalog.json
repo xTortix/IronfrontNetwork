@@ -1,0 +1,57 @@
+{
+  "version": "0.1A",
+  "contentHash": "1c7496e4362e7852c5f44cd7b67cfd1f8e9bab06a374dcd5142e358c5965c6fe",
+  "modes": [
+    {
+      "modeId": "standard.ground.duel.1v1",
+      "revision": 1,
+      "kind": "WarlabsStandard",
+      "displayName": "Ground Duel 1v1",
+      "description": "A standard Warlabs ground battle for two opposing players.",
+      "availability": {
+        "isEnabled": true,
+        "startsAtUtc": null,
+        "endsAtUtc": null
+      },
+      "mapPool": [
+        {
+          "mapId": "test.sandbox",
+          "weight": 1
+        }
+      ],
+      "teams": [
+        {
+          "displayName": "Alpha",
+          "requiredPlayerCount": 1
+        },
+        {
+          "displayName": "Bravo",
+          "requiredPlayerCount": 1
+        }
+      ],
+      "vehicleRules": {
+        "minimumBattleRatingTenths": 10,
+        "maximumBattleRatingTenths": 130,
+        "allowedVehicleClasses": [
+          "LightTank",
+          "MediumTank",
+          "HeavyTank"
+        ]
+      },
+      "matchmakingRules": {
+        "initialMaximumBattleRatingDifferenceTenths": 0,
+        "battleRatingDifferenceExpansionTenths": 3,
+        "expansionIntervalSeconds": 10,
+        "maximumBattleRatingDifferenceTenths": 10
+      },
+      "rewardRules": {
+        "progressionPolicy": "Warlabs",
+        "creditsMultiplier": 1.0,
+        "experienceMultiplier": 1.0,
+        "killScoreMultiplier": 1.0,
+        "spotScoreMultiplier": 1.0,
+        "captureScoreMultiplier": 1.0
+      }
+    }
+  ]
+}

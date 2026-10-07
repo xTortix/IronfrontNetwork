@@ -1,0 +1,34 @@
+{
+    "version": "0.1A",
+    "contentHash": "8df93ca86899d82f00315f3f50f8c95b0f03d0f8fd9878966951ab6ee76a70aa",
+    "vehicles": [
+        {
+            "vehicleId": "germany.ground.panzer_ii_f",
+            "displayName": "Panzer II F",
+            "nation": "Germany",
+            "vehicleClass": "LightTank",
+            "battleRatingTenths": 10
+        },
+        {
+            "vehicleId": "germany.ground.panzer_vi_e",
+            "displayName": "Panzer VI E",
+            "nation": "Germany",
+            "vehicleClass": "HeavyTank",
+            "battleRatingTenths": 47
+        },
+        {
+            "vehicleId": "ussr.ground.kv-2",
+            "displayName": "KV-2",
+            "nation": "USSR",
+            "vehicleClass": "HeavyTank",
+            "battleRatingTenths": 40
+        },
+        {
+            "vehicleId": "ussr.ground.t-34-76",
+            "displayName": "T-34-76",
+            "nation": "USSR",
+            "vehicleClass": "MediumTank",
+            "battleRatingTenths": 37
+        }
+    ]
+}

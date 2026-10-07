@@ -1,0 +1,56 @@
+{
+    "version": "0.1A",
+    "contentHash": "1d454b619af0b11213bbaa16e5a75a309c23a8b0fff6e4b2cb244377251f8ff0",
+    "techTrees": [
+        {
+            "techTreeId": "germany.ground",
+            "nation": "Germany",
+            "branch": "Ground",
+            "nodes": [
+                {
+                    "nodeId": "germany.ground.panzer_ii_f",
+                    "vehicleId": "germany.ground.panzer_ii_f",
+                    "rank": 1,
+                    "researchPointCost": 0,
+                    "purchaseCost": 0,
+                    "requiredNodeIds": []
+                },
+                {
+                    "nodeId": "germany.ground.panzer_vi_e",
+                    "vehicleId": "germany.ground.panzer_vi_e",
+                    "rank": 2,
+                    "researchPointCost": 60000,
+                    "purchaseCost": 0,
+                    "requiredNodeIds": [
+                        "germany.ground.panzer_ii_f"
+                    ]
+                }
+            ]
+        },
+        {
+            "techTreeId": "ussr.ground",
+            "nation": "USSR",
+            "branch": "Ground",
+            "nodes": [
+                {
+                    "nodeId": "ussr.ground.t-34-76",
+                    "vehicleId": "ussr.ground.t-34-76",
+                    "rank": 1,
+                    "researchPointCost": 200000,
+                    "purchaseCost": 0,
+                    "requiredNodeIds": []
+                },
+                {
+                    "nodeId": "ussr.ground.kv-2",
+                    "vehicleId": "ussr.ground.kv-2",
+                    "rank": 1,
+                    "researchPointCost": 45000,
+                    "purchaseCost": 0,
+                    "requiredNodeIds": [
+                        "ussr.ground.t-34-76"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+# Build output
+bin/
+obj/
+
+# IDE / editor state
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Logs
+*.log
+logs/
+
+# Local environment / secrets
+.env
+.env.*
+*.secret.json
+appsettings.Local.json
+appsettings.Production.json
+secrets/
+*.local.ps1
+*.local.env
+
+# Certificates / private keys
+certs/
+*.pfx
+*.p12
+*.cer
+*.crt
+*.key
+*.pem
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Publish / package output
+publish/
+artifacts/
+out/
+*.nupkg
+packages/
+.nuget/
+
+# Test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# OS / temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Generated deployment output. Keep only deployment templates/configuration
+# (Caddy/, env/*.example, systemd/, start-ironfront.sh) in Git.
+deploy/IronfrontNetwork/authservice/
+deploy/IronfrontNetwork/userservice/
+deploy/IronfrontNetwork/matchmaking/
+deploy/IronfrontNetwork/gateway/
+deploy/IronfrontNetwork/game-data/
+deploy/IronfrontNetwork/migrations/
+deploy/IronfrontNetwork/namecheap-ddns/
+deploy/*.tar.gz
